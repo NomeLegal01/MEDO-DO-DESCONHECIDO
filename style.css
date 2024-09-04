@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(7, 2, 39);
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:oblique;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color:darkslateblue;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.passo {
+    display:none;
+}
+
+.passo.ativo{
+    display:block;
+
+}
+
+main {
+    max-width: 80%;
+    text-align: center;
+}
+
+img{
+    max-width: 80%;
+}
